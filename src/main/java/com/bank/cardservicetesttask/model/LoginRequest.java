@@ -1,8 +1,10 @@
 package com.bank.cardservicetesttask.model;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data // или добавь вручную геттеры
+@Getter
+@Setter
 public class LoginRequest {
     private String username;
     private String password;
